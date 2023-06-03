@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.mapboxgl-popup-content {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.mapboxgl-popup-content h5 {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.mapboxgl-popup-content a {
+    color: blue;
+    text-decoration: none;
+}
+
+.mapboxgl-popup-content a:hover {
+    text-decoration: underline;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.marker {
+    display: block;
+    border: none;
+    border-radius: 75%;
+    cursor: pointer;
+    padding: 0;
+}
